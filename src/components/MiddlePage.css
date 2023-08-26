@@ -1,0 +1,42 @@
+/* src/components/MiddlePage.css */
+
+.middle-page {
+   position: relative;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1; /* Places the image behind the content */
+  }
+  
+  .overlay {
+    position: relative;
+    z-index: 1; /* Places the content above the image */
+    text-align: center;
+    color: white;
+    padding: 100px; /* Adjust padding as needed */
+  }
+  .Carousel img {
+    height: 70vh;
+    width: 90vw;
+    object-fit: cover;
+  }
+  .toptag{
+    margin-top: 3%;
+    color: aqua;
+    margin-bottom: 3%;
+    position: relative;
+  }
+  .Mentors{
+    margin-top: 5%;
+    margin-bottom: 4%;
+  }
+  
